@@ -1,0 +1,105 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  font-family: 'Lato', sans-serif;
+}
+
+.cabecalho {
+  text-align: center;
+  background-color: gray;
+  height: 100px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.container {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.topo {
+  background: #fff;
+}
+
+.menu_topo {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color:#336ac4;
+}
+
+.menu_topo li {
+  display: inline-block;
+  position: relative;
+  padding: 10px 15px;
+}
+
+.menu_topo li:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.submenu {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  background-color:#336ac3;
+}
+
+.submenu li {
+  display: inline-block;
+  position: relative;
+  padding: 10px 15px;
+}
+
+.submenu li:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.row {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.alert {
+  display: inline-block;
+  ;
+  width: 100%;
+  color: red;
+}
+
+body, html, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background: #ccc;
+  font-family: arial;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.rodape {
+  display: inline-block;
+  width:100%;
+
+}
+
+.rodape a {
+  color:blue;
+  text-decoration: none;
+  padding: 10px;
+  border:1px solid;
+
+}
